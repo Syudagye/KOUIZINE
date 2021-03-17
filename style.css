@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Dosis', 'Roboto', "Segoe UI", Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 3rem;
+}
+/* en-tête des pages */
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header-logo{
+    width: 50px;
+    height: 50px;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px;
+}
+.header-nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* index.html */

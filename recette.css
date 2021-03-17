@@ -1,0 +1,131 @@
+.recipe-header{
+    width: auto;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(180deg, #00000000 0%, #000000b0 100%), url('./img/rougaille.jpg');
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.recipe-header img{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    opacity: .5;
+    transition: opacity .2s ease-in-out;
+}
+.recipe-header img:hover{
+    transition: opacity .2s ease-in-out;
+    opacity: 1;
+}
+.recipe-header div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.recipe-header__author span{
+    color: #ffd970;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients{
+    padding: 20px;
+    background-color: #fff;
+    filter: drop-shadow(0 0 5px #00000054);
+    min-width: 250px;
+    height: max-content;
+    margin: 50px;
+    border-radius: 10px;
+}
+.ingredients h2{
+    margin-bottom: 20px;
+}
+.ingredients__list{
+    list-style: none;
+}
+.ingredients__list li{
+    display: flex;
+    padding: 5px 0;
+}
+.ingredients__list li::before{
+    content: '';
+    background-image: url("./img/fleche.svg");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    margin-right: 5px;
+}
+.ingredients__list li span{
+    font-weight: 600;
+    margin: auto;
+    margin-right: 0;
+    padding: 3px 5px;
+    border-radius: 3px;
+    background-color: #0000001c;
+}
+.preparation{
+    overflow-x: visible;
+    width: auto;
+    height: max-content;
+    margin: 50px;
+}
+.preparation__steps, .preparation__steps :is(li, li::marker){
+    overflow-x: visible;
+}
+.preparation__steps {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.preparation__steps li{
+    padding: 20px 0;
+    border-bottom: dotted #0008;
+}
+.preparation__steps li:last-of-type{
+    border: none;
+}
+
+@media only screen and (max-width: 700px){
+    .recipe-header{
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+        color: #fff;
+    }
+    .recipe-header img{
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+        margin: auto;
+        margin-left: 0;
+    }
+    .recipe-header div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .recipe-header div :is(h1, h2){
+        text-align: center;
+        max-width: 90%;
+        word-wrap: break-word;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ingredients{
+        width: auto;
+    }
+}
