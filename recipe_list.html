@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Bank - List des recettes</title>
+    <link rel="stylesheet" href="./src/stylesheets/style.css">
+    <link rel="stylesheet" href="./src/stylesheets/recipe_list.css">
+    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/recipe_list.js"></script>
+</head>
+<body>
+
+    <header>
+        <ul class="header-nav">
+            <li><a href="/index.html">Acceuil</a></li>
+            <li><a href="/recipe_list.html">Voir les recettes</a></li>
+            <li><a href="/recipe_add.html">Ajouter une recette</a></li>
+            <li><a href="/contact.html">Nous contacter</a></li>
+            <li>
+                <img id="theme-switcher" src="./src/img/theme.svg" alt="switch theme" onclick="switchTheme()">
+            </li>
+        </ul>
+        
+        <div class="header-titles">
+            <h1>Liste des recettes</h1>
+        </div>
+        <div class="header-background">
+            <img src="./src/img/plats/rougaille.jpg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th class="little-column">Publié par</th>
+                    <th class="little-column">Nombre d'étapes</th>
+                    <th class="little-column">Note</th>
+                </tr>
+            </thead>
+            <tbody id="recipe-list">
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+            
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+            
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+                <tr class="recipe-tab">
+                    <td class="recipe-name">Rougaille saucisses</td>
+                    <td class="centered">par Jaqueline</td>
+                    <td class="centered">10</td>
+                    <td class="centered">11/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

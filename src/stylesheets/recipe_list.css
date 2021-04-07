@@ -1,0 +1,39 @@
+html{
+    overflow-y: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 100%;
+    padding: 150px;
+    margin-bottom: 200px;
+    border-spacing: 0 10px;
+}
+.dark table{
+    color: #fff;
+}
+thead th{
+    font-weight: normal;
+}
+.recipe-tab{
+    cursor: pointer;
+}
+.recipe-tab:hover{
+    background-color: #0000002e;
+}
+.recipe-tab td{
+    padding: 6px 10px;
+    font-weight: 600;
+}
+.recipe-name{
+    font-size: 1.3rem;
+}
+.little-column{
+    width: 15%;
+}
+.centered{
+    text-align: center;
+}

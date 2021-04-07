@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Bank - Contact</title>
+    <link rel="stylesheet" href="./src/stylesheets/style.css">
+    <link rel="stylesheet" href="./src/stylesheets/contact.css">
+    <script src="./src/scripts/index.js"></script>
+</head>
+<body>
+    
+    <header>
+        <ul class="header-nav">
+            <li><a href="/index.html">Acceuil</a></li>
+            <li><a href="/recipe_list.html">Voir les recettes</a></li>
+            <li><a href="/recipe_add.html">Ajouter une recette</a></li>
+            <li><a href="/contact.html">Nous contacter</a></li>
+            <li>
+                <img id="theme-switcher" src="./src/img/theme.svg" alt="switch theme" onclick="switchTheme()">
+            </li>
+        </ul>
+        
+        <div class="header-titles">
+            <h1>Contactez nous</h1>
+        </div>
+        <div class="header-background">
+            <img src="./src/img/plats/rougaille.jpg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <form action="index.html" method="GET">
+            <div>
+                <div>
+                    <label for="prenom">Prenom (ou pseudonyme): </label>
+                    <input type="text" name="prenom" minlength="3" required>
+                </div> 
+                <div>
+                    <label for="nom">Nom de famille: </label>
+                    <input type="text" name="nom" pattern="[A-Za-z]+">
+                </div>
+                <div>
+                    <label for="email">email: </label>
+                    <input type="email" placeholder="contact@republiquedesmangues.fr" required>
+                </div>
+                <fieldset>
+                    <legend>Raison</legend>
+                    <input type="radio" name="why"> <label for="why">Simple e-mail</label>
+                    <br>
+                    <input type="radio" name="why"> <label for="why">Soumettre un recette</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="message">Votre message: </label>
+                <textarea name="msg" id="msg" cols="70" rows="10" placeholder="Tapez vottre message ici" required></textarea>
+            </div>
+            <input id="send-button" type="submit" value="Envoyer" onclick="alert('Formulaire envoyé :D !')">
+        </form>
+    </main>
+</body>
+</html>

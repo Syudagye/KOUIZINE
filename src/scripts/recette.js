@@ -5,11 +5,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (res.ok){
         let json = await res.json()
 
-        let recipe = json[0]
+        let index = new URLSearchParams(window.location.search).get('index')
+        
+        if(index === null){
+            alert('Aucun index de recette spécifié')
+            return
+        }
+
+        let recipe = json[parseInt(index)]
+
+        if(recipe === undefined){
+            alert('La recette spécifiée n\'existe pas')
+            return
+        }
 
         document.querySelector('#recipe-name').textContent = recipe.name
-        document.querySelector('#recipe-author').innerHTML = `par <span>${recipe.author || 'Unnamed'}</span>`
-        document.querySelector('#recipe-image').style = `background-image: linear-gradient(180deg, #00000000 0%, #000000b0 100%), url('./img/${recipe.image}')`
+        document.querySelector('#recipe-author').innerHTML = `par <a href="${recipe.link}">${recipe.author || 'Unnamed'}</a>`
+        document.querySelector('#recipe-image').style = `background-image: linear-gradient(180deg, #00000000 0%, #000000b0 100%), url('./src/img/plats/${recipe.image}')`
 
         let ingredients = recipe.ingredients
         let raw = ""
@@ -29,5 +41,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.querySelector('#recipe-steps').innerHTML = raw
     }
     else alert('Impossible de charger recettes.json')
-
 })

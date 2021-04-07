@@ -28,7 +28,10 @@
     flex-direction: column;
     margin-left: 100px;
 }
-.recipe-header__author span{
+.recipe-header__author a{
+    color: #ffd970;
+}
+.recipe-header__author a:visited{
     color: #ffd970;
 }
 
@@ -39,7 +42,7 @@ main{
 
 .ingredients{
     padding: 20px;
-    background-color: #fff;
+    background-color: inherit;
     filter: drop-shadow(0 0 5px #00000054);
     min-width: 250px;
     height: max-content;
@@ -73,6 +76,9 @@ main{
     border-radius: 3px;
     background-color: #0000001c;
 }
+.dark .ingredients__list li span{
+    color: #fff;
+}
 .preparation{
     overflow-x: visible;
     width: auto;
@@ -89,6 +95,9 @@ main{
 .preparation__steps li{
     padding: 20px 0;
     border-bottom: dotted #0008;
+}
+.dark .preparation__steps li{
+    color: #fff;
 }
 .preparation__steps li:last-of-type{
     border: none;

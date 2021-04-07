@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Dosis', 'Roboto', "Segoe UI", Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+html, body{
+    height: 100%;
+}
+h1{
+    font-size: 3rem;
+}
+.dark :is(h1, h2, p, label, legend){
+    color: #fff;
+}
+/* en-tête des pages */
+header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header-nav{
+    max-height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.header-nav li:last-of-type{
+    margin-left: auto;
+}
+.header-nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+#theme-switcher{
+    cursor: pointer;
+}
+.header-background{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    filter: brightness(50%);
+}
+.header-background img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.header-titles{
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.header-titles h1{
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+main{
+    background-color: #fff;
+}
+.dark main {
+    background-color: #1e1e1e;
+}

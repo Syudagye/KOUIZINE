@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./recette.css">
-    <script src="./recette.js"></script>
+    <link rel="stylesheet" href="./src/stylesheets/style.css">
+    <link rel="stylesheet" href="./src/stylesheets/recette.css">
+    <script src="./src/scripts/recette.js"></script>
+    <script src="./src/scripts/index.js"></script>
 </head>
 <body>
     <header id="recipe-image" class="recipe-header">
-        <img src="./img/fleche_gauche.svg" alt="retour" onclick="location.href = './index.html'">
+        <img src="./src/img/fleche_gauche.svg" alt="retour" onclick="location.href = './recipe_list.html'">
         <div>
             <h1 id="recipe-name">Nom de la recette</h1>
-            <h2 id="recipe-author" class="recipe-header__author">par <span>auteur</span></h2>
+            <h2 id="recipe-author" class="recipe-header__author">par <a href="/">auteur</a></h2>
         </div>
     </header>
 
