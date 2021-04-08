@@ -32,3 +32,7 @@ Les polices utilisées sont [Dosis](https://fonts.google.com/specimen/Dosis?quer
 ## Pages dynamiques
 
 Certaines pages n'ont pas une structure statique et sont générées en fonction des [données](./recettes.json) grâce a Javascript
+
+## Bonus
+
+Un easter egg est caché, bravo a vous si vous les trouvez ;D
