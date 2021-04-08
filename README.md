@@ -4,7 +4,7 @@
 
 Voici mon petit project HTML, CSS et JS !
 
-** IMPORTANT !!!**
+**IMPORTANT !!!**
 
 Je n'ai pas été prudent concernant la manière de récuperer les données des recettes, il faut donc quelques prerequis pour qu'il fonctionne bien:
 - Utiliser Firefox
