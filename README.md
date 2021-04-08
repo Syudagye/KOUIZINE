@@ -4,6 +4,17 @@
 
 Voici mon petit project HTML, CSS et JS !
 
+** IMPORTANT !!!**
+
+Je n'ai pas été prudent concernant la manière de récuperer les données des recettes, il faut donc quelques prerequis pour qu'il fonctionne bien:
+- Utiliser Firefox
+- se rendre sur `about:config`
+- Changer la règle `privacy.file_unique_origin` à `false` (temporairement)
+
+Ceci est du au fait que pour des raison de confort, j'ai utilisé l'extention Live Server de VSCode, qui simule un serveur, et qui ne se comporte donc pas comme juste des fichiers statiques
+
+Toutes mes excuses pour ce petit probleme
+
 ## Structure
 
 Mon projet suis la structure suivante:

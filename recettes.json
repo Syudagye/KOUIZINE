@@ -146,5 +146,85 @@
             "Quand c'est cuit, éteignez le feu puis laisser refroidir 10 minutes avant de servir",
             "<a href='https://youtu.be/Ae2rd4N68_g'>Degustez</a>"
         ]
+    },
+    {
+        "name": "Tiramisu",
+        "author": "La Rédaction",
+        "image": "tiramisu.webp",
+        "link": "https://cuisine.journaldesfemmes.fr/recette/316093-tiramisu",
+        "mark": 10,
+        "ingredients": [
+            {
+                "name": "Mascarpone",
+                "quantity": "250g"
+            },
+            {
+                "name": "Oeuf",
+                "quantity": "3"
+            },
+            {
+                "name": "Sucre",
+                "quantity": "100"
+            },
+            {
+                "name": "Café Fort",
+                "quantity": "20cl"
+            },
+            {
+                "name": "Amaretto",
+                "quantity": "2 c à s"
+            },
+            {
+                "name": "Biscuits cuillères",
+                "quantity": "20"
+            },
+            {
+                "name": "Poudre de cacao",
+                "quantity": ""
+            }
+        ],
+        "steps": [
+            "Fouettez vivement 3 jaunes d'œufs avec le sucre glace jusqu'à ce que le mélange blanchisse et devienne mousseux. Ajoutez ensuite le mascarpone puis mélangez jusqu'à ce que le résultat soit bien homogène. ",
+            "Montez 3 blancs en neige ferme en y ajoutant une pincée de sel, puis mélangez-les à la crème au mascarpone. Attention, pour garder un mélange bien mousseux et léger, les blancs ne doivent pas être 'cassés'. Mélangez délicatement de haut en bas avec une spatule en silicone en tournant votre récipient d'un quart de tour à chaque fois. ",
+            "Préparez une grande tasse de café fort, de préférence un expresso. Ajoutez-y l'Amaretto, un alcool italien à l'amande qui parfumera incroyablement votre dessert, puis mélangez. ",
+            "Coupez le bout des biscuits afin qu'ils adhèrent parfaitement à la paroi de votre plat. Utilisez les bouts pour compléter les trous au centre de votre tiramisu. Étalez une couche de crème au mascarpone au fond du plat, puis placez une couche de biscuits légèrement imbibés de café à l'Amaretto. ",
+            "Répétez l'opération en terminant par une couche de crème au mascarpone que vous saupoudrez de poudre de cacao amer ou de copeaux de chocolat. Placez au frais pour au moins 3 heures. "
+        ]
+    },
+    {
+        "name": "Panier au chevre",
+        "author": "elena_14255860",
+        "image": "chevre.jpg",
+        "link": "https://www.marmiton.org/recettes/recette_paniers-au-chevre_24289.aspx",
+        "mark": 8.6,
+        "ingredients": [
+            {
+                "name": "Jambon blanc",
+                "quantity": "4 tranches"
+            },
+            {
+                "name": "Fromage Saint Marcellin",
+                "quantity": "4"
+            },
+            {
+                "name": "Pommes de terre",
+                "quantity": "4"
+            },
+            {
+                "name": "Herbes de Provence",
+                "quantity": ""
+            }
+        ],
+        "steps": [
+            "Faites cuire les pommes de terre à l'eau.",
+            "Une fois cuites, les couper en fines rondelles. ",
+            "Etaler les tranches de jambon.",
+            "Couper les Saint Marcellin en deux verticalement. ",
+            "Déposer une tranche de saint marcellin au milieu de la tranche de jambon. ",
+            "Placer quelques rondelles de pommes de terre sur cette partie de fromage et déposer l'autre moitié du fromage par dessus afin de former une sorte de sandwich",
+            "Replier la tranche de jambon sur le côté et attachez-la à l'aide de cures-dents sur le haut du fromage, ce qui formera un panier.",
+            "Saupoudrez les fromages d'herbes de Provence selon le goût.",
+            "Placer dans un four chaud et faites cuire 10 min thermostat 8."
+        ]
     }
 ]
