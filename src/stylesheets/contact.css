@@ -15,7 +15,7 @@ main form{
     display: flex;
     flex-direction: row;
 }
-main form :is(div, fieldset, textarea){
+main form :is(div, fieldset, textarea){ /* le :is permet de selectionner plusieurs element, ça évite la répétition */
     margin-bottom: 10px;
     margin-right: 10px;
 }

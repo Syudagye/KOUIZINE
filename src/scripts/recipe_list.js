@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let json = await res.json()
 
         let raw = ""
-        for (let i = 0; i < json.length; i++) {
+        for (let i = 0; i < json.length; i++) { // Pour chaque recette, on crée une ligne dans la table. ici on a besoin de l'index a chaque tour donc on préfère une boucle for à un boucle forEach
             const el = json[i];
             console.log(el);
             raw += `<tr class=\"recipe-tab\" onclick=\"window.location.href = \'/recette.html?index=${i}\'\">`

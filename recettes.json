@@ -59,5 +59,92 @@
             "Mélangez le tout puis laisser mijoter sur feu doux en ôtant le couvercle de temps à autre pour éliminer l'excès d'eau.",
             "Servez avec du riz thai"
         ]
+    },
+    {
+        "name": "Chili con carne",
+        "author": "Good Food Team",
+        "image": "chili.jpg",
+        "link": "https://www.bbcgoodfood.com/recipes/chilli-con-carne-recipe",
+        "mark": 10,
+        "ingredients": [
+            {
+                "name": "Oignon",
+                "quantity": "1"
+            },
+            {
+                "name": "Poivron Rouge",
+                "quantity": "1"
+            },
+            {
+                "name": "Gousses d'ail",
+                "quantity": "2"
+            },
+            {
+                "name": "Huile d'olive",
+                "quantity": "1 Cuil. Soupe"
+            },
+            {
+                "name": "Poudre de Chili",
+                "quantity": "1 Cuil."
+            },
+            {
+                "name": "Paprika",
+                "quantity": "1 cc"
+            },
+            {
+                "name": "Cumin",
+                "quantity": "1 cc"
+            },
+            {
+                "name": "Emincés de boeuf",
+                "quantity": "500g"
+            },
+            {
+                "name": "Cube de Bouillon",
+                "quantity": "1"
+            },
+            {
+                "name": "Tomates Coupées",
+                "quantity": "400g"
+            },
+            {
+                "name": "Marjolaine sechée",
+                "quantity": "1/2 Cuil"
+            },
+            {
+                "name": "sucre",
+                "quantity": "1 Cuil"
+            },
+            {
+                "name": "purée de tomates",
+                "quantity": "2 cuil. soupe"
+            },
+            {
+                "name": "Haricots Rouges",
+                "quantity": "410g"
+            },
+            {
+                "name": "Riz long",
+                "quantity": "Au service"
+            },
+            {
+                "name": "soured cream",
+                "quantity": "Au service"
+            }
+        ],
+        "steps": [
+            "Préparer les légumes. Couper 1 oignon en petits dés.",
+            "Coupez le poivron dans sa longueur, débarassez le des graines, puis découpez le. Coupez également les gousses d'ail",
+            "Metter une cuillère d'huile dans une poêle et laissez chauffer a feu moyen",
+            "Faites cuire les oignons",
+            "Ajoutez l'ail, le poivron, le chili, le paprika et le cumin",
+            "Ajoutez le boeuf. Veillez a ce que la viande devienne bien marron et ait frit",
+            "Pour la sauce, metter le cube de bouillon dans de l'eau, puis ajouter le bouillon à la preparation",
+            "Ajoutez les tomates coupées, le sucre, du sel et du poivre. Puis ajoutez la purée de tomates",
+            "Faite cuir doucement pendant 20 minutes",
+            "Ajoutez les haricots,  portez le tout a ebulition",
+            "Quand c'est cuit, éteignez le feu puis laisser refroidir 10 minutes avant de servir",
+            "<a href='https://youtu.be/Ae2rd4N68_g'>Degustez</a>"
+        ]
     }
 ]

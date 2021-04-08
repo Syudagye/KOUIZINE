@@ -3,7 +3,7 @@
     height: max-content;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(180deg, #00000000 0%, #000000b0 100%), url('./img/rougaille.jpg');
+    background-image: linear-gradient(180deg, #00000000 0%, #000000b0 100%), url('./img/rougaille.jpg'); /* Pour avoir une image et un effet " d'ombre " dessus*/
     display: flex;
     flex-direction: row;
     padding-top: 150px;
@@ -31,7 +31,7 @@
 .recipe-header__author a{
     color: #ffd970;
 }
-.recipe-header__author a:visited{
+.recipe-header__author a:visited{ /* Pour eviter les couleurs qui ne vont pas quand le lien est visité*/
     color: #ffd970;
 }
 
@@ -99,10 +99,11 @@ main{
 .dark .preparation__steps li{
     color: #fff;
 }
-.preparation__steps li:last-of-type{
+.preparation__steps li:last-of-type{ /* :last-of-type selection le dernier élément de la liste pour lui substituer la bordure, qui n'est pas nécéssaire*/
     border: none;
 }
 
+/* Un tentative d'adaptation de l'interface en fonction de la taille de l'écran, ça fonctionne, mais je ne trouvait pas nécéssaire de le mettre sur les autre pages*/
 @media only screen and (max-width: 700px){
     .recipe-header{
         flex-direction: column;

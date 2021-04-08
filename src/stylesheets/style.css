@@ -1,3 +1,4 @@
+/* On import le font ici, on peut également le mettre dans le html, mais c'est mieux ici */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 *{
     font-family: 'Dosis', 'Roboto', "Segoe UI", Tahoma, Verdana, sans-serif;
@@ -69,6 +70,6 @@ header{
 main{
     background-color: #fff;
 }
-.dark main {
+.dark main { /* C'est body qui défini si on utilise le theme sombre */
     background-color: #1e1e1e;
 }

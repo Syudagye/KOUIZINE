@@ -14,7 +14,7 @@ main{
     padding: 150px 0;
     min-height: 300px;
     text-align: center;
-    white-space: nowrap;
+    white-space: nowrap; /* Pour eviter que le texte ne se mettre sur plusieurs ligne quand le view port est réduit */
 }
 main img{
     width: 200px;
